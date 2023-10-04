@@ -13,7 +13,7 @@ int main(void){
     } while (opcion== 1);
     for (int i = 0; i <= 10; i++)
     {
-       printf("Este es el numero %d\n", i);
+       printf("Numero %d\n", i);
     }
     
     return 0;
