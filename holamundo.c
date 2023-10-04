@@ -15,9 +15,13 @@ int main(void){
         }
         
     }
-    if (contador )
+    if (contador >2  )
     {
-        /* code */
+        printf("El numero %d no es primo.\n", numeroprimero);
+
+    }else{
+        printf("El numero %d es primo.\n", numeroprimero);
+
     }
     
     
