@@ -9,7 +9,7 @@ int main(void){
     do
     {
         printf("Escriba 1 para seguir en este bucle y cualquier otro numero para salir del bucle.\n");
-        scanf(&opcion);
+        scanf("%d", &opcion);
     } while (opcion== 1);
     for (int i = 0; i <= 10; i++)
     {
