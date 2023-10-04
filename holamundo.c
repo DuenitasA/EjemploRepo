@@ -2,19 +2,25 @@
 
 int main(void){
 
-    int opcion;
+    int numeroprimero;
+    int contador =0 ;
+    printf("Ingrese un numero para comprobrar si es primo o no.\n");
+    scanf("%d", &numeroprimero);
 
-    printf("Hola querido mundo de programadores.\n");
-
-    do
+    for (int i = 1; i <= numeroprimero; i++)
     {
-        printf("Escriba 1 para seguir en este bucle y cualquier otro numero para salir del bucle.\n");
-        scanf("%d", &opcion);
-    } while (opcion== 1);
-    for (int i = 0; i <= 10; i++)
+        if (numeroprimero % i == 0)
+        {
+            contador ++;
+        }
+        
+    }
+    if (contador )
     {
-       printf("Numero %d\n", i);
+        /* code */
     }
     
+    
+
     return 0;
 }
